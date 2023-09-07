@@ -1,4 +1,4 @@
-package gof23;
+package com.example.gof23;
 
 
 import com.example.gof23.iterator.Book;

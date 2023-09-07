@@ -1,4 +1,4 @@
-package gof23.iterator;
+package com.example.gof23.iterator;
 
 public class BookShelfIterator implements Iterator<Book> {
     private final BookShelf bookShelf;

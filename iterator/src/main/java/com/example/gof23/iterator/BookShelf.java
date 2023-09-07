@@ -1,4 +1,4 @@
-package gof23.iterator;
+package com.example.gof23.iterator;
 
 
 import lombok.Getter;
