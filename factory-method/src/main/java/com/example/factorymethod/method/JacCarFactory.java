@@ -5,7 +5,7 @@ import com.example.factorymethod.JacCar;
 
 public class JacCarFactory implements Factory<JacCar> {
     @Override
-    public JacCar createPRoduct(String name) {
+    public JacCar createCar(String name) {
         return new JacCar(name,null, null, null);
     }
 }

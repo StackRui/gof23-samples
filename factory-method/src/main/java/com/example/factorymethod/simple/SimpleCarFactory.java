@@ -4,7 +4,7 @@ import com.example.factorymethod.*;
 
 public class SimpleCarFactory implements Factory<BaseCar> {
     @Override
-    public BaseCar createPRoduct(String str) {
+    public BaseCar createCar(String str) {
         if (str.equals("BMW")) {
             return new BaomaCar("宝马汽车", null, null, null);
         } else if (str.equals("JAC")) {

@@ -23,7 +23,7 @@ public class LowCarFactory implements CarFactory {
     }
 
     @Override
-    public BaseCar createPRoduct(String str) {
+    public BaseCar createCar(String str) {
         if (str.equals("BMW")) {
             return new BaomaCar("宝马汽车", this.createEngine(), this.createSeat(), this.createTyre());
         } else if (str.equals("JAC")) {

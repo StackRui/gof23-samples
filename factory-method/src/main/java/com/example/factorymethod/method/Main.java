@@ -7,13 +7,13 @@ public class Main {
     public static void main(String[] args) {
         // 工厂方法
         Factory<? extends Car> bmw = new FactoriesSelector().getFactory("BMW");
-        System.out.println(bmw.createPRoduct("工厂方法生产的宝马汽车").name());
+        System.out.println(bmw.createCar("工厂方法生产的宝马汽车").name());
 
         Factory<? extends Car> jac = new FactoriesSelector().getFactory("JAC");
-        System.out.println(jac.createPRoduct("工厂方法生产的宝马汽车").name());
+        System.out.println(jac.createCar("工厂方法生产的宝马汽车").name());
 
         Factory<? extends Car> audi = new FactoriesSelector().getFactory("Audi");
-        System.out.println(audi.createPRoduct("工厂方法生产的宝马汽车").name());
+        System.out.println(audi.createCar("工厂方法生产的宝马汽车").name());
 
     }
 }
