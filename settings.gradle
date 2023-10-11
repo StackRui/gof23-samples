@@ -1,4 +1,5 @@
 rootProject.name = 'gof23-samples'
 include 'duty-chain'
 include 'iterator'
+include 'adapter'
 
