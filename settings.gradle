@@ -3,4 +3,5 @@ include 'duty-chain'
 include 'iterator'
 include 'adapter'
 include 'template-method'
+include 'factory-method'
 
