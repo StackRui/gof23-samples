@@ -11,4 +11,7 @@ include 'strategy'
 include 'composite'
 include 'decorator'
 include 'visitor'
+include 'facade'
+include 'mediator'
+include 'mediator'
 
