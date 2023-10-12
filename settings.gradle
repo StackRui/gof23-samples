@@ -7,4 +7,5 @@ include 'factory-method'
 include 'singleton'
 include 'builder'
 include 'bridge'
+include 'strategy'
 
