@@ -8,4 +8,5 @@ include 'singleton'
 include 'builder'
 include 'bridge'
 include 'strategy'
+include 'composite'
 
