@@ -6,4 +6,5 @@ include 'template-method'
 include 'factory-method'
 include 'singleton'
 include 'builder'
+include 'bridge'
 
